@@ -1,0 +1,16 @@
+.language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .language-switcher select {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,25 @@
+.crops-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.crop-item {
+  text-align: center;
+  width: 120px; 
+  margin: 10px;
+}
+
+.crop-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+.crop-title {
+  margin-top: 8px;
+  font-size: 1.2em;
+  color: #333;
+}

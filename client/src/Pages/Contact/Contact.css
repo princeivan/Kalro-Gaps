@@ -1,0 +1,37 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-map {
+    flex: 1;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-info, .contact-map {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
