@@ -8,3 +8,7 @@ pytz
 sqlparse
 psycopg2-binary
 python-dotenv
+gunicorn
+whitenoise
+dj-database-url
+django-environ

@@ -1,145 +1,203 @@
 .image-container {
-    position: relative;
-    width: 100%;
-     
-  }
+  position: relative;
+  width: 100%;
+}
 
-  .image-container img {
-    width: 100%; 
-    height: 150px;
-    object-fit: cover; 
-    object-position: center;
+.image-container img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
 
-  }
-  
-  .title-overlay {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;   
-    background-color: white; 
-    padding: 10px 20px;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    border-left: 5px solid #4CAF50; 
-  }
-  
-  .title-overlay h2 {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    letter-spacing: 2px; 
-  }
-  .content-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-  }
-  
+.title-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 5px solid #4caf50;
+}
 
-  #main-content {
-    width: 70%; 
-    padding-right: 20px;
-  }
-  
-  
-  .farming-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto; 
-    margin-top: 20px;
-    border-radius: 10px;
-  }
-  
- 
-  .sidebar {
-    width: 25%; 
-    background-color: #f9f9f9; 
-    padding: 20px;
-    border-left: 2px solid #ddd; 
-  }
-  
-  .sidebar ul {
-    list-style-type: none; 
-    padding-left: 0;
-  }
-  
-  .sidebar ul li {
-    margin-bottom: 10px;
-  }
-  
-  .sidebar ul li a {
-    text-decoration: none;
-    color: #007bff; 
-    font-weight: bold;
-  }
-  
-  .sidebar ul li a:hover {
-    text-decoration: underline; 
-  }
-  .card1 {
-    border: 1px solid #6fbf4b; 
-    border-radius: 10px;
-    margin: 10px 0;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-header {
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: rgb(26, 4, 4);
-    background: #4CAF50;
-  }
-  
-  .card-body {
-    padding: 10px;
-  }
-  
-  .read-more-btn {
-    background-color: black;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  
-  .read-more-btn:hover {
-    background-color: #333;
-  }
+.title-overlay h2 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
 
-  .image-gallery {
-    margin-top: 30px;
-  }
-  
-  .image-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  
-  .image-item img {
-    max-width: 200px;
-    border-radius: 8px;
-  }
-  .pdf-download-btn {
-    /* position: fixed;
+#main-content {
+  width: 70%;
+  padding-right: 20px;
+}
+
+.farming-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 2px solid #ddd;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+.card1 {
+  border: 1px solid #6fbf4b;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(26, 4, 4);
+  background: #4caf50;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.read-more-btn {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.read-more-btn:hover {
+  background-color: #333;
+}
+
+.image-gallery {
+  margin-top: 30px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.image-item img {
+  max-width: 200px;
+  border-radius: 8px;
+}
+.pdf-download-btn {
+  /* position: fixed;
     top: 20px;
     right: 20px; */
-    background-color: #0056b3;
-    color: rgb(12, 12, 12);
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    z-index: 1000;
-  }
-  
-  .pdf-download-btn:hover {
-    background-color: #0041a1;
+  background-color: #0056b3;
+  color: rgb(12, 12, 12);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.pdf-download-btn:hover {
+  background-color: #0041a1;
+}
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
   }
 
-  
+  #main-content {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .farming-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .title-overlay {
+    font-size: 16px;
+    bottom: 10px;
+    left: 10px;
+    padding: 8px 15px;
+  }
+
+  .card-header {
+    font-size: 18px;
+  }
+
+  .read-more-btn {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container img {
+    height: 120px;
+  }
+
+  .title-overlay {
+    font-size: 14px;
+    padding: 5px 10px;
+    border-left: 3px solid #4caf50;
+  }
+
+  .card1 {
+    padding: 8px;
+  }
+
+  .pdf-download-btn {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .sidebar ul li {
+    margin-bottom: 8px;
+  }
+
+  .image-item img {
+    max-width: 150px;
+  }
+}
