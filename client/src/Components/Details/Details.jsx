@@ -15,7 +15,9 @@ const Details = () => {
     async function getGapsDetails() {
       try {
         setLoading(true);
-        const response = await fetch(`http://127.0.0.1:8000/api/${id}/`);
+        const response = await fetch(
+          `https://d00239f5-1d6c-492d-921f-35a093f68f45-dev.e1-us-cdp-2.choreoapis.dev/kalrgaps/server/v1.0/api/${id}/`
+        );
         const data = await response.json();
 
         setGap(data);
@@ -60,7 +62,7 @@ const Details = () => {
     <>
       <div className="image-container">
         <img src={image} alt="title" />
-        <div class="title-overlay">
+        <div className="title-overlay">
           <h2>{title}</h2>
         </div>
       </div>
