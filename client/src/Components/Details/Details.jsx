@@ -16,7 +16,7 @@ const Details = () => {
       try {
         setLoading(true);
         const response = await fetch(
-          `https://d00239f5-1d6c-492d-921f-35a093f68f45-dev.e1-us-cdp-2.choreoapis.dev/kalrgaps/server/v1.0/api/${id}/`
+          `https://kalro-gaps.onrender.com/api/${id}/`
         );
         const data = await response.json();
 

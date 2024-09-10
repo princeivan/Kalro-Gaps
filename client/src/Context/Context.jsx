@@ -13,9 +13,7 @@ export default function GlobalState({ children }) {
   async function getGaps() {
     try {
       setIsLoading(true);
-      const response = await fetch(
-        "https://d00239f5-1d6c-492d-921f-35a093f68f45-dev.e1-us-cdp-2.choreoapis.dev/kalrgaps/server/v1.0/api/"
-      );
+      const response = await fetch("https://kalro-gaps.onrender.com/api/");
       const data = await response.json();
 
       setGaps(data);
