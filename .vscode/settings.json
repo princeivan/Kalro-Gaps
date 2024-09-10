@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "choreo://schema/endpoints": "file:///c%3A/Users/USER/projects/KalroGaps/backend/.choreo/endpoints.yaml"
+    }
+}
