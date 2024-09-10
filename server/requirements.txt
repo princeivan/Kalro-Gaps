@@ -12,4 +12,3 @@ gunicorn
 whitenoise
 dj-database-url
 django-environ
-django_filters
